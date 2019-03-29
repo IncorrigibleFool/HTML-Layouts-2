@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(197, 223, 231);
+    height: 100vh;
+}
+
+/* .header-box{
+    background-color: #663bc9;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+} */
+
+/* #header-image{
+    background-image:url(https://s3.amazonaws.com/www.invisionapp.com/static/img/maturity-model-butter-bar.png);
+    
+} */
+
+/* #header-text{
+    color: white;
+    font-size: 16x;
+    line-height: 19px;
+    font-weight: 500;
+    text-align: center;
+} */
+
+#links{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+.owl{
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50% 50% 0 0;
+}
+
+#logo{
+    padding-right: 25px;
+    padding-left: 60px;
+    font-size: 2em;
+    position: relative;
+}
+
+#logo-owl{
+    position: absolute;
+    bottom: 1px;
+    left: 20px;
+}
+
+#small-logo{
+    font-size: .5em;
+    font-weight: normal;
+}
+
+#design-link{
+    margin-right: 30px;
+}
+
+#books{
+    padding: 30px;
+}
+
+#podcast{
+    padding: 30px;
+}
+
+#workshops{
+    padding: 30px;
+}
+
+#conversations{
+    padding: 30px;
+}
+
+#subscribe{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20% / 50%;
+    text-align: center;
+    margin: 20px;
+    line-height: 40px;
+}
+
+#in{
+    height: 35px;
+    width: 35px;
+    font-style: italic;
+    font-size: 2em;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10%
+}
+
+#main-owl{
+    height: 50px;
+    width: 50px;
+    margin: 45px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-size: 3.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+    width: 40%;
+    line-height: 4vh;
+    font-size: .95em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#explore{
+    background-color: #F80051;
+    color: white;
+    height: 55px;
+    width: 187px;
+    border-radius: 15% / 50%;
+    text-align: center;
+    margin: 25px;
+    line-height: 55px;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+#scroll{
+    font-size: .8em;
+    margin-top: 7vh;
+}
